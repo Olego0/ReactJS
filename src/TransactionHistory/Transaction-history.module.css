@@ -1,0 +1,22 @@
+.thead > tr > th {
+    background-color: turquoise;
+    color: #fff;
+    height: 50px;
+    text-transform: uppercase;
+  }
+  .transactionHistory {
+    width: 40%;
+  }
+  .item > td {
+    text-align: center;
+    height: 30px;
+  }
+  .item > td::first-letter {
+    text-transform: uppercase;
+  }
+  .item:nth-child(even) {
+    background-color: rgb(243, 243, 243);
+  }
+  .item:nth-child(odd) {
+    background-color: #fff;
+  }
